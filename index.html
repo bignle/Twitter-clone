@@ -3,127 +3,280 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Twitter| Clone</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <link rel="icon" href="Assets/icon.png"  type="image">
-    <link rel="stylesheet" href="style.css">
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Twitter Clone</title>
 </head>
 <body>
-
-    <div class="navigation">
-        <div class="left-icons">
-            <ul class="left-icons-list">
-                <li>
-                    <i class="bi bi-house-door-fill"></i>
-                    <span>Home</span>
-                </li>
-                <li>
-                    <i class="bi bi-search"></i>
-                    <span>Explore</span>
-                </li>
-                <li>
-                    <i class="bi bi-bell"></i>
-                    <span>Notifications</span>
-                </li>
-                <li>
-                    <i class="bi bi-person-plus-fill"></i>
-                    <span>Follow</span>
-                </li>
-                <li>
-                    <i class="bi bi-envelope"></i>
-                    <span>Chat</span>
-                </li>
-                <li>
-                    <i class="bi bi-bookmark"></i>
-                    <span>Bookmarks</span>
-                </li>
-                <li>
-                    <i class="bi bi-rocket-takeoff"></i>
-                    <span>Creator Studio</span>
-                </li>
-
-                <li>
-                    <i class="bi bi-house-door-fill"></i>
-                    <span>Follow</span>
-                </li>
-                <li>
-                    <span><p><img src="Assets/grok.svg" alt="grok" width="16" height="16" >Grok</p></span>
-                </li>
-                <li>
-                    <i class="bi bi-twitter-x"></i>
-                    <span>Premium</span>
-                </li>
-                <li>
-                    <i class="bi bi-person"></i>
-                    <span>Profile</span>
-                </li>
-                <li>
-                    <i class="bi bi-three-dots"></i>
-                    <span>More</span>
-                </li>
-                <li>
-                    <i class="bi bi-feather"></i>
-                    <button class="post-button">Post</button>
-                </li>
-            </ul>
+    <!--sidebar starts here-->
+    <div class="sidebar">
+        <i class="fab fa-x-twitter"></i>
+        <div class="sidebarIcons active">
+            <span class="material-icons">home</span>
+            <h2>Home</h2>
         </div>
 
+        <div class="sidebarIcons">
+            <span class="material-icons">search</span>
+            <h2>Explore</h2>
+        </div>
 
-        <div class="profile-footer">
-            <h3>Nkazimulo Mnisi<i class="bi bi-person-circle"></i></h3>
-            <h3>@NkazimuloMnisi</h3>
+         <div class="sidebarIcons">
+            <span class="material-icons">notifications</span>
+            <h2>Notifications</h2>
+        </div>
 
+         <div class="sidebarIcons">
+            <span class="material-icons">person_add</span>
+            <h2>Follow</h2>
+        </div>
+
+         <div class="sidebarIcons">
+            <span class="material-icons">chat_bubble</span>
+            <h2>Chat</h2>
+        </div>
+
+         <div class="sidebarIcons">
+            <span class="material-icons"><img src="https://dl.svgcdn.com/svg/logos/grok.svg" alt="Grok logo" width="120" height="120" /></span>
+    
+        </div>
+
+         <div class="sidebarIcons">
+            <span class="material-icons">bookmark</span>
+            <h2>Bookmarks</h2>
+        </div>
+
+         <div class="sidebarIcons">
+            <span class="material-icons">rocket_launch</span>
+            <h2>Creator Studio</h2>
+        </div>
+
+         <i class="fab fa-x-twitter material-icons">
+            <h2>Premium</h2>
+         </i>
+         
+         <div class="sidebarIcons">
+            <span class="material-icons">person</span>
+            <h2>Profile</h2>
+        </div>
+
+         <div class="sidebarIcons">
+            <span class="material-icons">more_horiz</span>
+            <h2>More</h2>
+        </div>
+
+         <div class="sidebarIcons">
+            <span class="material-icons">post_add</span>
+            <h2>Post</h2>
+        </div>
+
+         <div class="sidebarIcons">
+            <span class="material-icons">person_pin</span>
+            <h2>Accounts</h2>
         </div>
 
     </div>
 
-    <div class="feed" >
-        <div class="top-center-row">
-            <h3>For you</h3>
-            <h3>Following</h3>
-              <div class="navigation-icon-feed">
-                <li>
-                    <i class="bi bi-image"></i>
-                    <span>Media</span>
-                </li>
-                <li>
-                    <i class="bi bi-filetype-gif"></i>
-                    <span>Gif</span>
-                </li>
-                <li>
-                    <span><p><img src="Assets/grok.svg" alt="grok" width="16" height="16" >Grok</p></span>
-                </li>
-                <li>
-                    <i class="bi bi-feather"></i>
-                    <span>Post</span>
-                </li>
-                <li>
-                    <i class="bi bi-list-ul"></i>
-                    <span>Poll</span>
-                </li>
-                <li>
-                    <i class="bi bi-geo-alt"></i>
-                    <span>Navigation</span>
-                </li>
-                <li>
-                    <i class="bi bi-flag"></i>
-                    <span>Content Disclosure</span>
-                </li>
-              </div>
-            <div class="post">
-                <h3>Post</h3>
-            </div> 
-        </div>
-    </div>
+     <!--sidebar ends here-->
 
-        <div class="trends" id="right">
-            <div class="search-trends">
-                <button class="search-button">Search</button>
-
+     <!--feed starts here-->
+     <div class="feed">
+        <div class="feed_header">
+            <div class="feed_header1">
+                <h2>For you</h2>
+            </div>
+            <div class="feed_header2">
+                 <h2>Following</h2>
             </div>
         </div>
-    
+
+        <!--tweetbox starts here-->
+        <div class="tweetbox">
+            <form>
+                <div class="tweetbox_input">
+                    <img alt="Image" draggable="true" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png" class="css-9pa8cd">
+                    <input type="text" placeholder="What's Happening?"/>
+                </div>
+                <button class="tweebox_tweetbutton">Post</button>
+            </form>
+
+        </div>
+         <!--tweetbox ends here-->
+
+         <!--post starts here-->
+         <div class="post">
+            <div class="post__avatar">
+                <img src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png" alt=""/>
+            </div>
+
+            <!--code structure borrowed from future coders on youtube-->
+            <div class="post__body">
+                <div class="post__header">
+                    <div class="post__headerText">
+                        <h3>
+                            Nkazimulo Mnisi
+                            <span class="post_headerSpecial">
+                                <span class="material-icons post__badge">varified</span>@NkazimuloMnisi
+                            </span>
+                        </h3>
+                    </div>
+                    <div class="post__header_title">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, dolorum similique dolores, nisi at dolore assumenda sit a impedit quas rem. Dolore recusandae deleniti voluptatum nisi perferendis debitis nemo consectetur!</p>
+                    </div>
+                </div>
+            </div>
+
+            
+            <a href="https://www.google.com/imgres?q=youtuber%20sibiss&imgurl=https%3A%2F%2Fyt3.googleusercontent.com%2Fvkrdi2qtL7vu5SppWAXvC-I3vTMmk5EEgTDV3RcxJZbh2uFchJJ9ZHZeYtM9Kdnk4VQ5NnMlGg%3Ds900-c-k-c0x00ffffff-no-rj&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUC9d74Mn0BqYGOgGUFp_7obw&docid=S-kpqfTOl6kAJM&tbnid=6HcDlxD8vw5FEM&vet=12ahUKEwiWjaSKuoyUAxUiQkEAHbi9JnEQnPAOegQIFhAB..i&w=900&h=900&hcb=2&ved=2ahUKEwiWjaSKuoyUAxUiQkEAHbi9JnEQnPAOegQIFhAB">
+                <img src="Assets/images.jpg" alt="Rasta man">
+            </a>
+
+            <div class="post__footer">
+                <span class="material-icons"> repeat </span>
+                <span class="material-icons"> favorite_border </span>
+                <span class="material-icons"> publish </span>
+            </div>
+
+         </div>
+
+          <div class="post">
+            <div class="post__avatar">
+                <img src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png" alt=""/>
+            </div>
+
+            <!--code structure borrowed from future coders on youtube-->
+            <div class="post__body">
+                <div class="post__header">
+                    <div class="post__headerText">
+                        <h3>
+                            Nkazimulo Mnisi
+                            <span class="post_headerSpecial">
+                                <span class="material-icons post__badge">varified</span>@NkazimuloMnisi
+                            </span>
+                        </h3>
+                    </div>
+                    <div class="post__header_title">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, dolorum similique dolores, nisi at dolore assumenda sit a impedit quas rem. Dolore recusandae deleniti voluptatum nisi perferendis debitis nemo consectetur!</p>
+                    </div>
+                </div>
+            </div>
+
+            
+            <a href="https://www.google.com/imgres?q=youtuber%20sibiss&imgurl=https%3A%2F%2Fyt3.googleusercontent.com%2Fvkrdi2qtL7vu5SppWAXvC-I3vTMmk5EEgTDV3RcxJZbh2uFchJJ9ZHZeYtM9Kdnk4VQ5NnMlGg%3Ds900-c-k-c0x00ffffff-no-rj&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUC9d74Mn0BqYGOgGUFp_7obw&docid=S-kpqfTOl6kAJM&tbnid=6HcDlxD8vw5FEM&vet=12ahUKEwiWjaSKuoyUAxUiQkEAHbi9JnEQnPAOegQIFhAB..i&w=900&h=900&hcb=2&ved=2ahUKEwiWjaSKuoyUAxUiQkEAHbi9JnEQnPAOegQIFhAB">
+                <img src="Assets/images.jpg" alt="Rasta man">
+            </a>
+
+            <div class="post__footer">
+                <span class="material-icons"> repeat </span>
+                <span class="material-icons"> favorite_border </span>
+                <span class="material-icons"> publish </span>
+            </div>
+
+         </div>
+
+          <div class="post">
+            <div class="post__avatar">
+                <img src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png" alt=""/>
+            </div>
+
+            <!--code structure borrowed from future coders on youtube-->
+            <div class="post__body">
+                <div class="post__header">
+                    <div class="post__headerText">
+                        <h3>
+                            Nkazimulo Mnisi
+                            <span class="post_headerSpecial">
+                                <span class="material-icons post__badge">varified</span>@NkazimuloMnisi
+                            </span>
+                        </h3>
+                    </div>
+                    <div class="post__header_title">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, dolorum similique dolores, nisi at dolore assumenda sit a impedit quas rem. Dolore recusandae deleniti voluptatum nisi perferendis debitis nemo consectetur!</p>
+                    </div>
+                </div>
+            </div>
+
+            
+            <a href="https://www.google.com/imgres?q=youtuber%20sibiss&imgurl=https%3A%2F%2Fyt3.googleusercontent.com%2Fvkrdi2qtL7vu5SppWAXvC-I3vTMmk5EEgTDV3RcxJZbh2uFchJJ9ZHZeYtM9Kdnk4VQ5NnMlGg%3Ds900-c-k-c0x00ffffff-no-rj&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUC9d74Mn0BqYGOgGUFp_7obw&docid=S-kpqfTOl6kAJM&tbnid=6HcDlxD8vw5FEM&vet=12ahUKEwiWjaSKuoyUAxUiQkEAHbi9JnEQnPAOegQIFhAB..i&w=900&h=900&hcb=2&ved=2ahUKEwiWjaSKuoyUAxUiQkEAHbi9JnEQnPAOegQIFhAB">
+                <img src="Assets/images.jpg" alt="Rasta man">
+            </a>
+
+            <div class="post__footer">
+                <span class="material-icons"> repeat </span>
+                <span class="material-icons"> favorite_border </span>
+                <span class="material-icons"> publish </span>
+            </div>
+
+         </div>
+
+
+         <div class="post">
+            <div class="post__avatar">
+                <img src="https://i.pinimg.com/originals/a6/58/32/a65832155622ac173337874f02b218fb.png" alt=""/>
+            </div>
+
+            <!--code structure borrowed from future coders on youtube-->
+            <div class="post__body">
+                <div class="post__header">
+                    <div class="post__headerText">
+                        <h3>
+                            Nkazimulo Mnisi
+                            <span class="post_headerSpecial">
+                                <span class="material-icons post__badge">varified</span>@NkazimuloMnisi
+                            </span>
+                        </h3>
+                    </div>
+                    <div class="post__header_title">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, dolorum similique dolores, nisi at dolore assumenda sit a impedit quas rem. Dolore recusandae deleniti voluptatum nisi perferendis debitis nemo consectetur!</p>
+                    </div>
+                </div>
+            </div>
+
+            
+            <a href="https://www.google.com/imgres?q=youtuber%20sibiss&imgurl=https%3A%2F%2Fyt3.googleusercontent.com%2Fvkrdi2qtL7vu5SppWAXvC-I3vTMmk5EEgTDV3RcxJZbh2uFchJJ9ZHZeYtM9Kdnk4VQ5NnMlGg%3Ds900-c-k-c0x00ffffff-no-rj&imgrefurl=https%3A%2F%2Fwww.youtube.com%2Fchannel%2FUC9d74Mn0BqYGOgGUFp_7obw&docid=S-kpqfTOl6kAJM&tbnid=6HcDlxD8vw5FEM&vet=12ahUKEwiWjaSKuoyUAxUiQkEAHbi9JnEQnPAOegQIFhAB..i&w=900&h=900&hcb=2&ved=2ahUKEwiWjaSKuoyUAxUiQkEAHbi9JnEQnPAOegQIFhAB">
+                <img src="Assets/images.jpg" alt="Rasta man">
+            </a>
+
+            <div class="post__footer">
+                <span class="material-icons"> repeat </span>
+                <span class="material-icons"> favorite_border </span>
+                <span class="material-icons"> publish </span>
+            </div>
+
+         </div>
+         <!--post ends here-->
+     </div>
+     <!--feed ends here-->
+
+     <!--widget starts here-->
+     <div class="widget">
+        <div class="widget_input">
+
+        </div>
+
+        <div class="widget_container">
+            <h2>What's happening</h2>
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">Sunsets don't get much better than this one over
+                    <a href="https://twitter.com/GrandTetonNPS?ref_src=twsrc%5Etfw">@GrandTetonNPS</a>.
+                    <a href="https://twitter.com/hashtag/nature?src=hash&amp;ref_src=twsrc%5Etfw"
+                    >#nature</a
+                    >
+                    <a href="https://twitter.com/hashtag/sunset?src=hash&amp;ref_src=twsrc%5Etfw"
+                    >#sunset</a
+                    >
+                    <a href="http://t.co/YuKy2rcjyU">pic.twitter.com/YuKy2rcjyU</a>
+                </p>
+                &mdash; US Department of the Interior (@Interior)
+                <a href="https://twitter.com/Interior/status/463440424141459456?ref_src=twsrc%5Etfw"
+                >May 5, 2014</a
+                >
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+
+     </div>
+     <!--widget ends here-->
 </body>
 </html>
